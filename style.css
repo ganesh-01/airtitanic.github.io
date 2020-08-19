@@ -1,0 +1,83 @@
+*{
+  font-family: rockwell; 
+}
+a.navbar-brand{ 
+  font-family: guardians; 
+  padding: 5px; 
+  margin-top: 5px; 
+  font-size: 30px; 
+  margin-left: 10px;
+}
+.img-hover-zoom--blur img {
+  transition: transform 1s, filter 1s ease-in-out;
+  filter: blur(0.5px);
+  transform: scale(1.1);
+  opacity: 80%;
+  border-radius: 50%;
+}
+
+/* The Transformation */
+.img-hover-zoom--blur:hover img {
+  filter: blur(0);
+  transform: scale(1);
+  opacity: 100%;
+}
+.img-hover-zoom--blur{
+	max-width: 300px;
+	width: auto;
+	height: auto;
+}
+body{
+	background-color: #b3cde0;
+}
+.img_container{
+  text-align: center;
+}
+p{
+  text-align: justify;
+  padding: 10px;
+  margin-left: 10px;
+}
+li a {
+  text-align: right;
+}
+.navbar_right{
+
+}
+li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+hr.hr_border{
+  width: 35%;
+  border-top: 2px solid black;
+  border-radius: 2px;
+}
+.img_style{
+  max-width: 200px; 
+  max-height: 200px; 
+  margin-left: 10px;
+}
+.footbg{
+  background-color: #03396c;
+}
+li {
+  list-style: none
+}
+div.footer-links{
+  padding-top: 35px;
+  text-align: center;
+}
+
+div.logo{
+  text-align:;
+  margin-top: -50px;
+}
+.footrow{
+  margin-left: 170px;
+  padding: 10px;
+  color: #b3cde0;
+}
+.footrows{
+  text-align: center;
+}
